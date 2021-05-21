@@ -1,6 +1,7 @@
 #coding:utf-8
 """
 本SDK由 异想之旅（比邻云盘用户 异想之旅王子） 基于官方SDK重写而成
+https://www.bilnn.com/
 """
 
 import base64
@@ -22,7 +23,7 @@ class Bilnn:
         }
         if show:
             print("初始化成功！")
-            print("本程序由异想之旅开发，源码地址https://github.com/Danny-Yxzl/bilnn-python-sdk")
+            print("本程序基于https://www.bilnn.com/官方接口，由异想之旅开发，源码地址https://github.com/Danny-Yxzl/bilnn-python-sdk")
             print("所有的云端路径都必须加前导的“/”！所有的本地路径必须是绝对路径！")
             print("若不希望看到此提示，请传入参数show=False")
         return
