@@ -159,7 +159,7 @@ class Bilnn:
             return {
                 "success": False,
                 "code": 401,
-                "msg": "请检查账号或密码是否正确",
+                "msg": "请检查账号、密码或路径是否正确",
                 "backdata": {
                     "cloudpath": cloud_path,
                 }

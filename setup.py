@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='bilnn',
-    version='0.1.1',
+    version='1.0.0',
     description='A SDK For Bilnn Pan',
     py_modules=["bilnn"],
 
