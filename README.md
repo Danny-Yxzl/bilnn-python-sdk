@@ -8,7 +8,7 @@
 示例代码：
 ```Python
 
-from bilnn import bilnn
+import bilnn
 pan = bilnn.Bilnn("abc@example.com", "PASSWORD")  # Bilnn("你的WebDav账号", "你的WebDav密码")
 print(pan.upload("D:/1.txt", "/1.txt"))  # pan.upload("本地文件路径", "云端保存路径"))
 print(pan.get_url("/1.txt"))  # pan.get_url("云端文件路径")
